@@ -46,8 +46,8 @@ All pipeline stages are logged with timestamps to etl.log,
 including row counts, errors, and completion status.
 
 ## Sample Output
-| region | orders | revenue |
-|---|---|
+| Region | orders | revenue |
+|---|---|---|
 |East   |   55  |      58467.39|
 |West   |   44  |      50017.65|
 |North  |   50  |      49647.68|
