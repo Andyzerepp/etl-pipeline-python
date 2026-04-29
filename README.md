@@ -14,14 +14,14 @@ Pipeline activity is tracked via a log file.
 - Google Drive
 
 ## Project Structure
-etl_pipeline/
-│
-├── data/
-│   └── sales_data.csv         # Raw input data (200 rows of retail sales)
-├── logs/
-│   └── etl.log                # Pipeline activity log
-├── etl_pipeline.db            # SQLite database (output)
-└── etl_pipeline.ipynb         # Main notebook
+- etl_pipeline/
+
+ -- data/
+  --- sales_data.csv         # Raw input data (200 rows of retail sales)
+ -- logs/
+  --- etl.log                # Pipeline activity log
+ -- etl_pipeline.db            # SQLite database (output)
+ -- etl_pipeline.ipynb         # Main notebook
 
 ## Pipeline Stages
 
